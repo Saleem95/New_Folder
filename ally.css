@@ -1,0 +1,222 @@
+
+ /* START: VFI - Blurbs are missing VFIs. */
+.fl-ada-link-wrap {
+    display: block;
+    /*display: inline-block;*/
+    /*height: 100%;*/
+}
+/* END: VFI - Blurbs are missing VFIs. */
+
+a:hover, form .form-links a:hover, .type-post a:hover, .fl-sidebar a:hover, .pagination a:hover, .single-landing-page #main-content a:hover, .single-landing-page footer a:hover{
+    text-decoration:none !important;
+}
+.type-post a, form .form-links a, .fl-sidebar a, .pagination a, .single-landing-page #main-content a, .single-landing-page footer a{
+    text-decoration:underline !important;
+}
+.ENABLE_UNDERLINE_BREADCRUMBS #page-container .dcsbcm_divi_breadcrumb a:focus{
+    text-decoration:underline !important;
+}
+.ENABLE_UNDERLINE_BREADCRUMBS #page-container .dcsbcm_divi_breadcrumb a:hover{
+    text-decoration:none !important;
+}
+.et_pb_post .entry-title a, .et_pb_post h2 a{
+    line-height: 1.5em !important;
+    letter-spacing:0px !important;
+    word-spacing:0px !important;
+}
+  .et_pb_scroll_top.et-pb-icon{
+    background:#C85000 !important;
+}
+.et_pb_scroll_top.et-pb-icon:focus{
+    outline-offset:-4px !important;
+}
+
+.default-footer p{
+    margin-bottom:0px !important;
+}
+.default-footer a{
+    margin:0px 2px !important;
+}
+.default-footer a:focus{
+    box-shadow:none !important;
+    outline-color:#fff !important;
+}
+.single-landing-page .default-footer a:focus{
+    outline-color:#fff !important;
+}
+.fl-section-p p{
+    margin-bottom:0px !important;
+}
+#page-container .et_pb_image {
+    font-size:0px !important;
+}
+
+/*Social share buttons alignment issue*/
+@media (max-width: 528px) {
+
+     .single-landing-page #main-content a, .privacy-policy #main-content a{
+        word-break:break-word !important;
+         display:inline-block !important;
+    }
+    .et_monarch .et_social_autowidth.et_social_networks li:nth-child(n) {
+        width: 60% !important;
+    }
+}
+
+/*blog social vfi*/
+.et_monarch .et_social_networks li a:focus{
+        outline-offset:-4px !important;
+        outline-color: #fff !important;
+    }
+
+/*blog vfi*/
+
+.et_pb_widget_area .et_pb_widget a:focus{
+    outline-color:#fff !important;
+    box-shadow:none !important;
+}
+
+/*main-menu link bottom*/
+
+.et_pb_menu--without-logo .et_pb_menu__menu>nav>ul>li>a{
+    margin-bottom:3px !important;
+}
+
+/*mobile-menu vfi and current color*/
+body .et_pb_menu ul#menu-main-menu li.current-menu-item:hover a{
+    color:#000 !important;
+}
+.et_mobile_menu li a:focus{ 
+    box-shadow:none !important;
+    outline-color: #fff !important;
+     outline-offset: -4px !important;
+}
+ .et_pb_menu .nav li ul.sub-menu a:focus{
+    box-shadow:none !important;
+    outline-color: #000 !important;
+     outline-offset: -4px !important;
+}
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////
+/*button vfi*/
+body a.et_pb_button:focus{
+     outline-offset: -4px !important;
+}
+body footer .et_pb_button:focus{
+    outline-offset:-4px !important;
+}
+
+/*Testimonial sliders for dot*/
+
+#page-container .fl-testimonial .et-pb-controllers button{
+    opacity:0.7 !important;
+}
+#page-container .fl-testimonial .et-pb-controllers button.et-pb-active-control{
+    opacity:1!important;
+}
+
+
+
+/*vfi to blurb*/
+.fl-ada-link-wrap:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}
+.fl-ada-link-wrap:focus .et_clickable{
+    outline:2px dotted #000 !important;
+    box-shadow:0 0 0 2px #fff !important;
+}
+
+
+/*Menu dropdown scrollable issue at 200% and 400%*/
+.fl-mobile-menu .et_mobile_menu { 
+height: calc(100vh - 50px); 
+padding-bottom: 200px !important; 
+overflow: auto; 
+}
+
+
+.fl-footer-h2 {
+    margin-top: -55px!important;
+}
+//or//
+
+.fl-footer-h2 {
+    position:absolute !important;
+    top:8px !important;
+}
+
+
+/*Menu dropdown scrollable issue at 200% and 400%*/
+#fl-template .fl-mobile-menu .et_mobile_menu { 
+    height: calc(100vh - 50px); 
+    padding-bottom: 350px; 
+    overflow: auto; 
+}
+
+/* 
+1. Reverse the section for h1.
+2. Add the css to order the heading, class name to all the section in home.
+*/
+
+
+#main-content .et_builder_inner_content {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.fl-home-section-1 {
+  order: 1 !important;
+}
+
+.fl-home-section-2 {
+  order: 2 !important;
+}
+
+.fl-home-section-3 {
+  order: 3 !important;
+}
+
+
+/* 1. Reverse the coloumn in page
+   2. Give order css to column. 
+*/
+
+#main-content .fl-row{
+  display:flex !important;
+  flex-direction: row !important;
+    
+  }
+
+  .fl-column1{
+   order:1 !important;
+  }
+  .fl-column2{
+   order:2 !important;
+  }
+
+
+  
+////////////////////
+
+
+/*slider*/
+#page-container .fl-testimonials-slider .et-pb-controllers button{
+    opacity:0.7 !important;
+}
+#page-container .fl-testimonials-slider .et-pb-controllers button.et-pb-active-control{
+    opacity:1!important;
+}
+#page-container .fl-testimonials-slider .et-pb-controllers button:focus{
+    outline-offset:2px !important;
+}
+
+
+

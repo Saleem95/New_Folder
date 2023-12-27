@@ -1,0 +1,69 @@
+/* //// blog search //// */
+
+.fl-search-none{
+  display: none !important;;
+}
+.fl-sidebar input.et_pb_s::placeholder {
+    color:#333 !important;
+}
+
+.fl-sidebar input.et_pb_s {
+    width: 70% !important;
+    height: auto !important;
+    color: #000 !important;
+}
+
+.fl-sidebar input.et_pb_searchsubmit {
+    color: #000 !important;
+    width: 30% !important;
+}
+.fl-sidebar input.et_pb_searchsubmit:hover {
+    background: #fff !important;
+}
+
+
+@media (max-width: 980px) {
+    /* //// header search //// */
+    .fl-header-search input.et_pb_s {
+        height: auto !important;
+    }
+
+    .fl-header-search .et_pb_searchsubmit {
+        height: auto !important;
+    }
+
+    /* //// blog search //// */
+    .fl-search input.et_pb_s {
+        width: 86% !important;
+    }
+
+    .fl-search input.et_pb_searchsubmit {
+        width: 14% !important;
+    }
+
+}
+
+
+ @media(max-width:450px){
+
+        .fl-long-form .nf-form-content select.ninja-forms-field{
+
+            font-size:8px!important;
+
+/*          padding-right:30px!important; */
+
+        }
+
+        }
+
+.fl-long-form .nf-form-content select.ninja-forms-field{
+
+    letter-spacing:0px!important;
+
+    word-spacing:0px!important;
+
+    padding-right:30px!important;
+
+   
+
+}

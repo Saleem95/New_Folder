@@ -1,0 +1,15 @@
+#fl-new-sidebar .fl-new-sidebar ul li  {
+    position: relative;
+}
+#fl-new-sidebar .fl-new-sidebar ul li a.fl-tag {
+    top: 0px !important;
+    right: 0px !important;
+    position: absolute !important;
+}
+
+.type-post a:hover, .fl-sidebar a:hover{
+    text-decoration:none !important;
+}
+.type-post a, .fl-sidebar a{
+    text-decoration:underline !important;
+}

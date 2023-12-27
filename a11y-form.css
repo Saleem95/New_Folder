@@ -1,0 +1,137 @@
+/* Form Styles */
+
+/*Close button in Disclaimer popup*/
+.dashicons-info {
+  vertical-align: bottom;
+}
+.dashicons-info:before {
+  font-family: FontAwesome;
+  content: "\f05a";
+}
+.dashicons-no-alt {
+  padding-top: 0;
+}
+.dashicons-no-alt:before {
+  font-family: FontAwesome;
+  content: "\f00d";
+}
+
+.mfp-close-btn-in .mfp-close:focus{
+    outline-offset:-12px !important;
+}
+.mfp-wrap .mfp-close:active {
+    position: absolute;
+    top: 0px;
+}
+.fl-disclaimer.active{
+    max-height:360px !important;
+}
+/*Line-height for check symbol in checkboxes when text-spacing is applied*/
+.checkbox-container.label-right label:before, 
+.listcheckbox-container .nf-field-element label:before {
+     line-height: 0.8em;
+} 
+
+/*Text in the email address field is overlapping with the tick mark*/
+form .email-wrap input[type="email"] {
+  padding-right: 50px !important;
+}
+
+/* error msg */
+.fl-short-form .nf-error-msg,
+.fl-short-form .ninja-forms-req-symbol
+{
+    color: #fff !important;
+}
+
+/* auto fill form */
+input:autofill,
+input:-webkit-autofill {
+    box-shadow: 0 0 0 40px #fff inset !important;
+    border-color: #4f9b4d !important;
+}
+
+input[type=checkbox]:focus+label:after {
+    box-shadow: none !important;
+}
+form .email-wrap input[type="email"]:focus{
+    outline-offset:2px !important;
+}
+
+/* select item contact-form */
+.nf-form-content .list-select-wrap>div select {
+    color: #000 !important;
+}
+.checkbox-container.label-right label {
+    font-size: 14px !important;
+    letter-spacing: 0px !important;
+    word-spacing: 0px !important;
+
+}
+
+
+/* border form form input  */
+.list-select-wrap .nf-field-element>div,
+input:not([type=submit]),
+textarea,
+.checkbox-wrap .nf-field-label label:after,
+.listcheckbox-wrap .nf-field-element label:after,
+.fl-disclaimer.active .fl-disclaimer__inner {
+    border: 1px solid #000 !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/* form email field green mark */
+.nf-pass.field-wrap .nf-field-element:after {
+    color: #008c00!important;
+}
+.fl-attorney-form .form-links a{
+    color:#000 !important;
+}
+.fl-short-form .checkbox-container.label-right label:after{
+   color: #fff !important;
+}
+.fl-long-form .nf-form-content select.ninja-forms-field{
+  letter-spacing:0px!important;
+  word-spacing:0px!important;
+  padding-right:35px!important;
+}
+form .form-links a:focus{
+    box-shadow:none !important;
+}
+form .form-links a{
+    letter-spacing:0px !important;
+    word-spacing:0px !important;
+}
+@media(max-width:981px) {
+    .fl-short-form .nf-cell {
+        width: 100% !important;
+    }
+}
+@media (max-width: 480px) {
+.nf-form-content .list-select-wrap>div select{
+font-size:8px !important;
+}
+
+}
+
+.nf-error.field-wrap .nf-field-element:after{
+    top: 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
+    height: 50px !important;
+}
+
+
+
+
+
+
+
+
+
+.fl-long-form select#nf-field-6 {
+    font-size: 11px!important;
+    padding-right: 37px!important;
+}

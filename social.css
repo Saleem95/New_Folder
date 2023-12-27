@@ -1,0 +1,27 @@
+/*Social share buttons alignment issue*/
+@media (max-width: 528px) {
+	.et_monarch .et_social_autowidth.et_social_networks li:nth-child(n) {
+		width: 60% !important;
+	}
+}
+.et_monarch .et_social_networks li a:focus{
+		outline-offset:-4px !important;
+		outline-color: #fff !important;
+	}
+.ENABLE_UNDERLINE_BREADCRUMBS #page-container .dcsbcm_divi_breadcrumb a:focus{
+	text-decoration:underline !important;
+}
+.ENABLE_UNDERLINE_BREADCRUMBS #page-container .dcsbcm_divi_breadcrumb a:hover{
+	text-decoration:none !important;
+}
+
+/*slider*/
+#page-container .fl-testimonials-slider .et-pb-controllers button{
+    opacity:0.7 !important;
+}
+#page-container .fl-testimonials-slider .et-pb-controllers button.et-pb-active-control{
+    opacity:1!important;
+}
+#page-container .fl-testimonials-slider .et-pb-controllers button:focus{
+    outline-offset:2px !important;
+}

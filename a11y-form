@@ -1,0 +1,52 @@
+/* Form Styles */
+
+
+/* error msg */
+.fl-short-form .nf-error-msg,
+.fl-short-form .ninja-forms-req-symbol
+{
+    color: #fff !important;
+}
+
+form .nf-form-content input:not([type=submit]), form .nf-form-content textarea
+{
+    background:transparent !important;
+}
+
+/* auto fill form */
+input:autofill,
+input:-webkit-autofill {
+    box-shadow: 0 0 0 40px #fff inset !important;
+    border-color: #4f9b4d !important;
+}
+
+input[type=checkbox]:focus+label:after {
+    box-shadow: none !important;
+}
+
+/* select item contact-form */
+.nf-form-content .list-select-wrap>div select {
+    color: #000 !important;
+}
+.checkbox-container.label-right label {
+    font-size: 14px !important;
+}
+
+
+/* border form form input  */
+.list-select-wrap .nf-field-element>div,
+input:not([type=submit]),
+textarea,
+.checkbox-wrap .nf-field-label label:after,
+.listcheckbox-wrap .nf-field-element label:after {
+    border: 1px solid #000 !important;
+    background-color: #fff !important;
+    color: #000 !important;
+
+}
+
+
+/* form email field green mark */
+.nf-pass.field-wrap .nf-field-element:after {
+    color: #008c00!important;
+}
